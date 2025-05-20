@@ -9,4 +9,4 @@ Crear una experiencia de compra moderna para ropa personalizada, enfocada en la 
 Proyecto en fase inicial. Estructura base lista. Avance semanal será agregado durante el desarrollo del proyecto.
 
 ## GitHub Pages 
-Enlance
+[Enlance] (https://copycat339.github.io/Overstitch/SRC/#inicio)
