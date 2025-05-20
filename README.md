@@ -8,4 +8,5 @@ Crear una experiencia de compra moderna para ropa personalizada, enfocada en la 
 ## Estado actual
 Proyecto en fase inicial. Estructura base lista. Avance semanal será agregado durante el desarrollo del proyecto.
 
-## GitHub Pages (pendiente de deploy)
+## GitHub Pages 
+Enlance
