@@ -10,35 +10,79 @@
   <header>
     <h1>Overstitch</h1>
     <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Personaliza</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
+  <ul>
+    <li><a href="#" data-seccion="inicio">Inicio</a></li>
+    <li><a href="#" data-seccion="productos">Productos</a></li>
+    <li><a href="#" data-seccion="personaliza">Personaliza</a></li>
+    <li><a href="#" data-seccion="contacto">Contacto</a></li>
+  </ul>
+</nav>
   </header>
 
   <main>
-    <section class="hero">
-      <h2>Ropa Oversize Personalizada</h2>
-      <p>Bordados únicos. Diseño minimalista. Calidad premium.</p>
-      <a href="#" class="btn">Explorar productos</a>
-    </section>
+  <!-- SECCIÓN INICIO -->
+<section id="inicio" class="seccion">
+  <div class="intro">
+    <h2>Bienvenid@ a Overstitch</h2>
+    <p>
+      Somos una tienda de ropa <strong>oversize</strong> con diseños <strong>personalizables</strong> y <strong>bordados</strong>. 
+      Creamos prendas únicas con estilo minimalista, materiales de calidad y un enfoque artesanal. 
+      Personaliza tu sudadera, playera o hoodie con tu toque especial. 
+      Hecho con cuidado, pensado para destacar.
+    </p>
+  </div>
+</section>
 
-    <section class="destacados">
-      <h3>Productos Destacados</h3>
-      <div class="grid-productos">
-        <!-- Aquí se cargarán productos dinámicamente -->
-        <div class="producto">
-          <img src="../assets/sudadera-1.jpg" alt="Sudadera bordada" />
-          <h4>Sudadera Bordada Oversize</h4>
-          <p>$599 MXN</p>
-          <button>Agregar al carrito</button>
-        </div>
-      </div>
-    </section>
-  </main>
+  <!-- SECCIÓN PRODUCTOS -->
+  <section id="productos" class="seccion oculto">
+    <h3>Productos</h3>
+    <div class="grid-productos" id="contenedor-productos"></div>
+  </section>
+
+  <!-- SECCIÓN PERSONALIZA -->
+  <section id="personaliza" class="seccion oculto">
+    <h3>Personaliza tu prenda</h3>
+    <form id="form-personaliza" class="form-personaliza">
+  <div class="campo">
+    <label for="tipo">Tipo de personalización:</label>
+    <select id="tipo" name="tipo" required>
+      <option value="">Selecciona una opción</option>
+      <option value="texto">Texto bordado</option>
+      <option value="imagen">Imagen</option>
+      <option value="bordado">Diseño especial</option>
+    </select>
+  </div>
+
+  <div class="campo">
+    <label for="descripcion">Descripción del diseño:</label>
+    <textarea id="descripcion" name="descripcion" rows="4" placeholder="Describe tu diseño..."></textarea>
+  </div>
+
+  <div class="campo">
+    <label for="archivo">Subir imagen (opcional):</label>
+    <input type="file" id="archivo" name="archivo" accept="image/*" />
+  </div>
+
+  <div class="campo">
+    <label for="color">Color del bordado:</label>
+    <input type="color" id="color" name="color" value="#000000" />
+  </div>
+
+  <button type="submit">Enviar personalización</button>
+</form>
+  </section>
+
+  <!-- SECCIÓN CONTACTO -->
+  <section id="contacto" class="seccion oculto">
+    <h3>Contáctanos</h3>
+    <form>
+      <label>Nombre: <input type="text" /></label><br />
+      <label>Correo: <input type="email" /></label><br />
+      <label>Mensaje: <textarea></textarea></label><br />
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</main>
 
   <footer>
     <p>© 2025 Overstitch. Todos los derechos reservados.</p>

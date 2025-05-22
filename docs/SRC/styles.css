@@ -88,3 +88,109 @@ footer {
   color: #fff;
   margin-top: 2rem;
 }
+
+.oculto {
+  display: none;
+}
+
+.seccion {
+  padding: 2rem;
+}
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.producto {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.producto:hover {
+  transform: translateY(-4px);
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.producto h4 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.producto p {
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  color: #666;
+}
+
+.producto button {
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.producto button:hover {
+  background-color: #333;
+}
+
+.form-personaliza {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.form-personaliza .campo {
+  margin-bottom: 1.5rem;
+}
+
+.form-personaliza label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-personaliza input,
+.form-personaliza textarea,
+.form-personaliza select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.form-personaliza button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-personaliza button:hover {
+  background-color: #333;
+}

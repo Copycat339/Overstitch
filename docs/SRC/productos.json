@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "nombre": "Sudadera Bordada Oversize",
+    "precio": 599,
+    "imagen": "../assets/sudadera-1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Sudadera Básica Oversize",
+    "precio": 499,
+    "imagen": "../assets/sudadera-2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Playera Oversize Personalizada",
+    "precio": 349,
+    "imagen": "../assets/playera-1.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Hoodie Unisex Bordado 'Wave'",
+    "precio": 659,
+    "imagen": "../assets/hoodie-wave.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Hoodie Oversize Negra 'Skull Art'",
+    "precio": 689,
+    "imagen": "../assets/hoodie-skull.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Sudadera 'Cherry Blossom' Rosa",
+    "precio": 639,
+    "imagen": "../assets/sudadera-cherry.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Camiseta Blanca Bordada 'No Signal'",
+    "precio": 379,
+    "imagen": "../assets/playera-nosignal.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Sudadera Verde Olivo 'Forest Stitch'",
+    "precio": 619,
+    "imagen": "../assets/sudadera-forest.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Hoodie Oversize Personalizable",
+    "precio": 699,
+    "imagen": "../assets/hoodie-personalizable.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Playera Negra Estilo Minimal",
+    "precio": 329,
+    "imagen": "../assets/playera-minimal.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Sudadera Azul Marino Clásica",
+    "precio": 579,
+    "imagen": "../assets/sudadera-azul.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Sudadera Oversize 'Galaxy Fade'",
+    "precio": 699,
+    "imagen": "../assets/sudadera-galaxy.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Playera Oversize 'Anime Tears'",
+    "precio": 359,
+    "imagen": "../assets/playera-anime.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Hoodie Gris con Capucha Premium",
+    "precio": 649,
+    "imagen": "../assets/hoodie-gris.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Sudadera Lila 'Dreamcore'",
+    "precio": 589,
+    "imagen": "../assets/sudadera-dreamcore.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Sudadera Beige 'Paz Interior'",
+    "precio": 619,
+    "imagen": "../assets/sudadera-beige.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Playera Oversize Blanca 'Sunset'",
+    "precio": 339,
+    "imagen": "../assets/playera-sunset.jpg"
+  }
+]
+
