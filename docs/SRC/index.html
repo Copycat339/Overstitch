@@ -15,22 +15,20 @@
     <li><a href="#" data-seccion="productos">Productos</a></li>
     <li><a href="#" data-seccion="personaliza">Personaliza</a></li>
     <li><a href="#" data-seccion="contacto">Contacto</a></li>
+    <li><a href="#" data-seccion="carrito">Carrito</a></li>
   </ul>
 </nav>
   </header>
 
   <main>
-  <!-- SECCIÓN INICIO -->
+  <!-- Sección Inicio (Actualizada) -->
 <section id="inicio" class="seccion">
-  <div class="intro">
-    <h2>Bienvenid@ a Overstitch</h2>
-    <p>
-      Somos una tienda de ropa <strong>oversize</strong> con diseños <strong>personalizables</strong> y <strong>bordados</strong>. 
-      Creamos prendas únicas con estilo minimalista, materiales de calidad y un enfoque artesanal. 
-      Personaliza tu sudadera, playera o hoodie con tu toque especial. 
-      Hecho con cuidado, pensado para destacar.
-    </p>
+  <div class="hero">
+    <h2>Estilo único, hecho a tu medida</h2>
+    <p>Descubre prendas oversize bordadas y personalizables que hablan de ti. Hechas con amor, pensadas para destacar.</p>
+    <a href="#" class="btn" data-seccion="productos">Ver productos</a>
   </div>
+</section>
 </section>
 
   <!-- SECCIÓN PRODUCTOS -->
@@ -82,6 +80,14 @@
       <button type="submit">Enviar</button>
     </form>
   </section>
+
+  <!-- Sección Carrito (NUEVA) -->
+<section id="carrito" class="seccion oculto">
+  <h3>Tu Carrito</h3>
+  <div id="contenedor-carrito" class="carrito-lista"></div>
+  <p id="total-carrito" class="total-carrito">Total: $0.00 MXN</p>
+  <button id="btn-comprar" class="btn-comprar">Finalizar compra</button>
+</section>
 </main>
 
   <footer>

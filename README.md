@@ -25,6 +25,28 @@ Proyecto en desarrollo. Se agregan avances semanalmente según la planificación
 - Preparación para conexión con Supabase (próximos pasos).
 - Código modular y limpio en `index.html`, `styles.css` y `main.js`.
 
+## ✅ Avances al 27 de mayo de 2025
+
+- **Navegación SPA** entre secciones con JavaScript: Inicio, Productos, Personaliza, Contacto y Carrito.
+- **Carrito de compras funcional**:
+  - Se pueden agregar productos con cantidad.
+  - Simulación de compra con mensaje de confirmación.
+  - Eliminar productos del carrito.
+  - Cálculo dinámico del total.
+- **Mejoras en la sección de Productos**:
+  - Estilo visual mejorado (minimalista y moderno).
+  - Cada producto incluye selección de **talla** y **color**.
+  - Interfaz consistente con el diseño general.
+- **Personalización de prendas**:
+  - Formulario completo con opción de tipo de diseño, color de bordado, imagen y descripción.
+  - Alerta de solicitud enviada al enviar.
+- **Formulario de Contacto funcional y estilizado**.
+- **Estilos globales mejorados**:
+  - Secciones limpias, responsivas y consistentes.
+  - Uso de clases reutilizables.
+- Código estructurado y modular (`index.html`, `styles.css`, `main.js`).
+- Organización de carpetas (`assets`, `scripts`, `styles`).
+
 ---
 
 ## GitHub Pages  
