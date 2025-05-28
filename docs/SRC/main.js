@@ -134,3 +134,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
+
+// Reemplaza estos valores con los de tu proyecto
+const supabaseUrl = 'https://aboroaqzobrlycvlteab.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFib3JvYXF6b2JybHljdmx0ZWFiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg0MDA3NDksImV4cCI6MjA2Mzk3Njc0OX0.dLIzp9VbZzCXkPzbgsdAwFbZ6rACPc63P6c6aa-FVYE';
+const supabase = createClient(supabaseUrl, supabaseKey);
